@@ -1,0 +1,9 @@
+services:
+  mysqldb:
+    container_name: SpringDataRESTLecture
+    image: mysql
+    ports:
+      - 3309:3306
+    environment:
+      MYSQL_DATABASE: spring_data_rest
+      MYSQL_ROOT_PASSWORD: root

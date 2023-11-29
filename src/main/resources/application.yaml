@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3309/spring_data_rest
+    username: root
+    password: root
+server:
+  port: 8081
+spring.jpa:
+  hibernate.ddl-auto: update

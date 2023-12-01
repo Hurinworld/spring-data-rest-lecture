@@ -18,4 +18,8 @@ public class User {
     private String email;
     private String password;
     private Integer age;
+
+    @ManyToOne
+    @JoinColumn(name = "department_id")
+    private Department department;
 }
